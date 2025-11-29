@@ -19,5 +19,6 @@ public class Testy  {
     public void obliczWynikDlaZnakow(){
         char[] gra= {'A', 'Y'};
         Assertions.assertEquals(3, Gra.obliczWynikDlaZnakow(Gra.znaki(),Gra.obliczWynik(gra)));
+        
     }
 }

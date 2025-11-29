@@ -46,7 +46,6 @@ public class Gra {
                 return znaki[1] == 'N' ?6:0;
             case 'N':
                 return znaki[1] == 'K' ?6:0;
-
         }
         return 3;
 
@@ -54,13 +53,10 @@ public class Gra {
     public static int obliczWynikDlaZnakow(char[] znaki, int wynik){
         switch (znaki[1]){
             case 'K':
-                
                 return wynik+1;
             case 'P':
-
                 return wynik+2;
             case 'N':
-
                 return wynik+3;
         }
 
